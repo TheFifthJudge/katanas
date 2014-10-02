@@ -5,9 +5,9 @@
 minetest.register_craft({
 	output = 'katanas:katana_wood',
 	recipe = {
-		{'', '', 'default:wood'},
-		{'', 'default:wood', ''},
-		{'default:stick', '', ''},
+		{'', '', 'group:wood'},
+		{'', 'group:wood', ''},
+		{'group:stick', '', ''},
 	}
 })
 
@@ -16,7 +16,7 @@ minetest.register_craft({
 	recipe = {
 		{'', '', 'default:stone'},
 		{'', 'default:stone', ''},
-		{'default:stick', '', ''},
+		{'group:stick', '', ''},
 	}
 })
 
@@ -25,7 +25,7 @@ minetest.register_craft({
 	recipe = {
 		{'', '', 'default:steel_ingot'},
 		{'', 'default:steel_ingot', ''},
-		{'default:stick', '', ''},
+		{'group:stick', '', ''},
 	}
 })
 
@@ -34,7 +34,7 @@ minetest.register_craft({
 	recipe = {
 		{'', '', 'default:bronze_ingot'},
 		{'', 'default:bronze_ingot', ''},
-		{'default:stick', '', ''},
+		{'group:stick', '', ''},
 	}
 })
 
@@ -43,7 +43,7 @@ minetest.register_craft({
 	recipe = {
 		{'', '', 'default:mese_crystal'},
 		{'', 'default:mese_crystal', ''},
-		{'default:stick', '', ''},
+		{'group:stick', '', ''},
 	}
 })
 
@@ -52,7 +52,7 @@ minetest.register_craft({
 	recipe = {
 		{'', '', 'default:diamond'},
 		{'', 'default:diamond', ''},
-		{'default:stick', '', ''},
+		{'group:stick', '', ''},
 	}
 })
 --
